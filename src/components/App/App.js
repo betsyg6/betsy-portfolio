@@ -6,6 +6,7 @@ import Landing from '../Landing';
 import Navigation from '../Navigation';
 import Projects from '../Projects';
 import TechStack from '../TechStack';
+import Footer from '../Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Projects />
       <Articles />
       <ContactMe />
+      <Footer />
     </div>
   );
 };
