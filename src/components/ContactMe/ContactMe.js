@@ -1,13 +1,14 @@
 import React from 'react';
 import Wrapper from '../../ui-components/Wrapper';
+import { StyledSection } from './styles';
 
 const ContactMe = () => {
   return (
-    <div id="contact-me">
+    <StyledSection id="contact-me">
       <Wrapper>
         <h1>Contact Me</h1>
       </Wrapper>
-    </div>
+    </StyledSection>
   );
 };
 
