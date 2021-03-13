@@ -22,4 +22,10 @@ export const NavBar = styled.div`
     display: flex;
     flex-direction: column;
   }
+
+  a {
+    &:hover {
+      color: blue;
+    }
+  }
 `;
