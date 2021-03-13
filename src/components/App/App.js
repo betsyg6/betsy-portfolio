@@ -10,8 +10,7 @@ import Footer from '../Footer';
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <>
       <Navigation />
       <Landing />
       <AboutMe />
@@ -20,7 +19,7 @@ const App = () => {
       <Articles />
       <ContactMe />
       <Footer />
-    </div>
+    </>
   );
 };
 
