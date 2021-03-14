@@ -11,7 +11,7 @@ export const WrapperStyled = styled.div`
     margin-top: 70px;
     margin-left: 10px;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid ${COLORS.MEDIUM1};
     font-family: 'Bungee Shade', cursive;
     color: ${COLORS.DARK2};
   }
@@ -34,7 +34,7 @@ export const HalfWrapStyled = styled.div`
     margin-top: 70px;
     margin-left: 10px;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid ${COLORS.MEDIUM1};
     font-family: 'Bungee Shade', cursive;
     color: ${COLORS.DARK2};
   }
