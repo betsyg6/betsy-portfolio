@@ -1,21 +1,23 @@
 import styled from 'styled-components';
+import * as COLORS from '../../constants/colors';
 
 export const NavBar = styled.div`
   font-size: 20px;
   position: fixed;
   width: 100%;
+  z-index: 10;
   .header {
-    background: peachpuff;
+    background: ${COLORS.DARK1};
     padding: 20px;
     display: flex;
     justify-content: space-between;
     margin: 0;
-    color: black;
+    color: ${COLORS.WHITE};
     * {
       cursor: pointer;
     }
     .active {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid ${COLORS.WHITE};
     }
   }
   .scrolling-buttons {
@@ -25,7 +27,7 @@ export const NavBar = styled.div`
 
   a {
     &:hover {
-      color: blue;
+      color: ${COLORS.LIGHT1};
     }
   }
 `;

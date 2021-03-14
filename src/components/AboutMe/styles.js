@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import * as COLORS from '../../constants/colors';
 
 export const StyledSection = styled.div`
-  background-color: pink;
+  background-color: ${COLORS.LIGHT2};
 
   h1 {
     margin-bottom: 10px;
