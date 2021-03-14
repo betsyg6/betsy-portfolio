@@ -1,7 +1,8 @@
 import React from 'react';
+import { StyledFooter } from './styles';
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return <StyledFooter>© Betsy Groton</StyledFooter>;
 };
 
 export default Footer;

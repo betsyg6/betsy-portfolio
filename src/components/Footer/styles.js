@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
-export const StyledSection = styled.div`
-  background-color: pink;
-`;
-
-export const StyledContents = styled.div`
+export const StyledFooter = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;

@@ -1,13 +1,23 @@
 import React from 'react';
-import Wrapper from '../../ui-components/Wrapper';
-import { StyledSection } from './styles';
+import { Card, HalfWrapper } from '../../ui-components';
+import { StyledSection, StyledList } from './styles';
+import { contact } from './copy';
 
 const ContactMe = () => {
   return (
     <StyledSection id="contact-me">
-      <Wrapper>
+      <HalfWrapper>
         <h1>Contact Me</h1>
-      </Wrapper>
+        <StyledList>
+          {contact.map((info) => {
+            return (
+              <a href={info.link} key={info.link}>
+                <Card info={info.name} />
+              </a>
+            );
+          })}
+        </StyledList>
+      </HalfWrapper>
     </StyledSection>
   );
 };
