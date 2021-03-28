@@ -54,8 +54,8 @@ export const CardStyled = styled.div`
   padding: 5px;
   width: 80px;
   &:hover {
-    color: ${COLORS.LIGHT2};
-    background: ${COLORS.DARK2};
+    color: ${COLORS.MEDIUM1};
+    border: solid 1px ${COLORS.MEDIUM1};
   }
 `;
 
@@ -67,6 +67,11 @@ export const ProjectStyled = styled.div`
   height: 80%;
   padding: 10px;
 
+  ul {
+    list-style-type: none;
+    text-align: left;
+  }
+
   p {
     font-size: 15px;
   }
@@ -76,15 +81,35 @@ export const ProjectStyled = styled.div`
     height: auto;
     box-shadow: 10px 10px 6px 1px ${COLORS.MEDIUM1};
   }
+
+  a {
+    margin: 2em;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    border: solid 1px black;
+    margin: 3px;
+    padding: 5px;
+
+    &:hover {
+      color: ${COLORS.MEDIUM1};
+      border: solid 1px ${COLORS.MEDIUM1};
+    }
+  }
 `;
 
 export const ArticleStyled = styled.div`
   border-radius: 7px;
   border: solid 1px black;
   margin: 8px;
-  width: 80%;
-  height: 50%;
+  width: auto;
+  height: 80%;
   padding: 10px;
+
+  &:hover {
+    color: ${COLORS.MEDIUM1};
+    border: solid 1px ${COLORS.MEDIUM1};
+  }
 
   a {
     text-decoration: none;

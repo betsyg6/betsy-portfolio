@@ -5,4 +5,9 @@ export const StyledList = styled.div`
   flex-direction: row;
   text-align: center;
   justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 `;

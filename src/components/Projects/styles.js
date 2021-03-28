@@ -9,4 +9,9 @@ export const StyledContents = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+
+  .slick-dots {
+    bottom: 3rem;
+  }
 `;
