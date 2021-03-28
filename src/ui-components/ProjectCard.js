@@ -5,6 +5,7 @@ const ProjectCard = ({ project }) => {
   return (
     <ProjectStyled>
       <h2>{project.title}</h2>
+      <img src={project.image} alt={project.title} />
       <p>{project.description}</p>
       <ul>
         {project.tech.map((tech) => {

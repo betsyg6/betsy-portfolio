@@ -1,46 +1,42 @@
 import React from 'react';
-import { Wrapper, Card } from '../../ui-components/';
+import { Wrapper } from '../../ui-components/';
 import { languages, libraries, tools } from './copy';
-import { Row, Col, RowNoWrap } from './styles';
+import { Row, Col } from './styles';
 
 const TechStack = () => {
   return (
     <div id="tech-stack">
       <Wrapper>
         <h1>Tech Stack</h1>
-        <RowNoWrap>
+        <Row>
           <Col>
-            <Col>
-              <h2>Languages:</h2>
-              <Row>
-                {languages.map((language) => {
-                  return (
-                    <Card key={languages.indexOf(language)} info={language} />
-                  );
-                })}
-              </Row>
-            </Col>
-            <Col>
-              <h2>Libraries:</h2>
-              <Row>
-                {libraries.map((library) => {
-                  return (
-                    <Card key={libraries.indexOf(library)} info={library} />
-                  );
-                })}
-              </Row>
-            </Col>
-            <Col>
-              <h2>Tools:</h2>
-              <Row>
-                {tools.map((tool) => {
-                  return <Card key={tools.indexOf(tool)} info={tool} />;
-                })}
-              </Row>
-            </Col>
+            <h2>Languages:</h2>
+            <ul>
+              {languages.map((language) => {
+                return <li key={languages.indexOf(language)}>{language} </li>;
+              })}
+            </ul>
           </Col>
+          <Col>
+            <h2>Libraries:</h2>
+            <ul>
+              {libraries.map((library) => {
+                return <li key={libraries.indexOf(library)}>{library}</li>;
+              })}
+            </ul>
+          </Col>
+          <Col>
+            <h2>Tools:</h2>
+            <ul>
+              {tools.map((tool) => {
+                return <li key={tools.indexOf(tool)}>{tool}</li>;
+              })}
+            </ul>
+          </Col>
+        </Row>
+        <Row>
           <Col>image placeholder</Col>
-        </RowNoWrap>
+        </Row>
       </Wrapper>
     </div>
   );

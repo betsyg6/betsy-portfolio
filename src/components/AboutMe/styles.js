@@ -19,8 +19,21 @@ export const Row = styled.div`
   width: 100%;
   margin-bottom: 1em;
 `;
+
 export const Col = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-basis: 100%;
+
+  p {
+    margin: 1em;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+    box-shadow: 20px 20px 12px 1px ${COLORS.MEDIUM1};
+  }
 `;

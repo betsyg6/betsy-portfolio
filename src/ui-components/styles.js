@@ -61,14 +61,20 @@ export const CardStyled = styled.div`
 
 export const ProjectStyled = styled.div`
   border-radius: 7px;
-  border: solid 1px black;
+
   width: 80%;
   margin: 10%;
-  height: 100%;
+  height: 80%;
   padding: 10px;
 
   p {
     font-size: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 6px 1px ${COLORS.MEDIUM1};
   }
 `;
 
@@ -88,4 +94,12 @@ export const ArticleStyled = styled.div`
   span {
     text-transform: uppercase;
   }
+`;
+
+export const ContentWrapper = styled.div`
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem;
 `;

@@ -1,3 +1,10 @@
+import goalStreaker from '../../../images/goalstreaker.png';
+import goBark from '../../../images/gobark.png';
+import hallowoof from '../../../images/hallowoof.png';
+import mapIt from '../../../images/mapit.png';
+import shareMyNumbers from '../../../images/sharemynumbers.png';
+import weatherWatcher from '../../../images/weatherwatcher.png';
+
 export const projects = [
   {
     title: 'Share My Numbers',
@@ -6,6 +13,7 @@ export const projects = [
     tech: ['Firebase', 'React', 'Bootstrap', 'Heroku'],
     website: 'https://youtu.be/cfJ5FI2Aco0',
     github: 'https://github.com/betsyg6/ShareMyNumbers',
+    image: shareMyNumbers,
   },
   {
     title: 'Goal Streaker',
@@ -14,6 +22,7 @@ export const projects = [
     tech: ['Firebase', 'React', 'Chart.js', 'Material-ui', 'Heroku'],
     website: 'https://goalstreaker.herokuapp.com/',
     github: 'https://github.com/betsyg6/goalStreaker',
+    image: goalStreaker,
   },
   {
     title: 'Weather Watcher',
@@ -22,11 +31,12 @@ export const projects = [
     tech: ['Chrome Extensions', 'React', 'Victory.js', '3rd Party APIs'],
     website: 'https://www.youtube.com/watch?v=36AS_etm0JM&feature=youtu.be',
     github: 'https://github.com/Jackie-Sydney-Betsy/weather-chrome-extension',
+    image: weatherWatcher,
   },
   {
     title: 'go.bARk',
     description:
-      'go.bARK is an Augmented Reality mobile app that allows a user to play with a virtual dog, earn points for caring for their dog, and compete with their followers.',
+      'go.bARk is an Augmented Reality mobile app that allows a user to play with a virtual dog, earn points for caring for their dog, and compete with their followers.',
     tech: [
       'Viro React',
       'React Native',
@@ -38,6 +48,7 @@ export const projects = [
     ],
     website: 'https://www.youtube.com/watch?v=tJig6T0Ccoc',
     github: 'https://github.com/gh-capstone-team-c/Go.bARk',
+    image: goBark,
   },
   {
     title: 'Map It!',
@@ -57,6 +68,7 @@ export const projects = [
     ],
     website: 'https://mapitapp.herokuapp.com/',
     github: 'https://github.com/betsyg6/mapitapp',
+    image: mapIt,
   },
   {
     title: 'HalloWOOF Costumes',
@@ -76,6 +88,7 @@ export const projects = [
     ],
     website: 'https://hallowoof.herokuapp.com/',
     github: 'https://github.com/Grace-Shopper-BG-JL-AV/grace-shopper',
+    image: hallowoof,
   },
 ];
 

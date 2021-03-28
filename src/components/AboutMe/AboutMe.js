@@ -1,7 +1,8 @@
 import React from 'react';
 import { Wrapper } from '../../ui-components/Wrapper';
 import { StyledSection, Row, Col } from './styles';
-import { aboutMeText } from './copy';
+import { aboutMeText1, aboutMeText2 } from './copy';
+import betsy from '../../../images/betsy.jpg';
 
 const AboutMe = () => {
   return (
@@ -10,10 +11,15 @@ const AboutMe = () => {
         <h1>About Me</h1>
         <Row>
           <Col>
-            <div>image placeholder</div>
+            <img src={betsy} />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>{aboutMeText1}</p>
           </Col>
           <Col>
-            <p>{aboutMeText}</p>
+            <p>{aboutMeText2}</p>
           </Col>
         </Row>
       </Wrapper>
