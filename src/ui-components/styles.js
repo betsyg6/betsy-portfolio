@@ -5,6 +5,8 @@ export const WrapperStyled = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
 
   h1 {
     font-size: 45px;
@@ -61,7 +63,6 @@ export const CardStyled = styled.div`
 
 export const ProjectStyled = styled.div`
   border-radius: 7px;
-
   width: 80%;
   margin: 10%;
   height: 80%;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HalfWrapper, ArticleCard } from '../../ui-components';
+import { Wrapper, ArticleCard } from '../../ui-components';
 import { mediumRssFeed, shownArticles } from './copy';
 import { StyledList } from './styles';
 
@@ -23,7 +23,7 @@ const Articles = () => {
 
   return (
     <div id="articles">
-      <HalfWrapper>
+      <Wrapper>
         <h1>Articles</h1>
         <StyledList>
           {articles &&
@@ -31,7 +31,7 @@ const Articles = () => {
               return <ArticleCard key={article.link} article={article} />;
             })}
         </StyledList>
-      </HalfWrapper>
+      </Wrapper>
     </div>
   );
 };

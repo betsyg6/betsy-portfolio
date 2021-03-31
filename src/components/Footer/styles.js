@@ -6,3 +6,11 @@ export const StyledFooter = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+export const StyledList = styled.div`
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+`;

@@ -1,7 +1,6 @@
 import React from 'react';
 import AboutMe from '../AboutMe';
 import Articles from '../Articles';
-import ContactMe from '../ContactMe';
 import Landing from '../Landing';
 import Navigation from '../Navigation';
 import Projects from '../Projects';
@@ -17,7 +16,6 @@ const App = () => {
       <TechStack />
       <Projects />
       <Articles />
-      <ContactMe />
       <Footer />
     </>
   );

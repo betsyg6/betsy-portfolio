@@ -42,15 +42,6 @@ const Navigation = () => {
         >
           Articles
         </Link>
-        <Link
-          activeClass="active"
-          to="contact-me"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Contact Me
-        </Link>
       </div>
     </NavBar>
   );

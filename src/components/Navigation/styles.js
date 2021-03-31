@@ -6,12 +6,13 @@ export const NavBar = styled.div`
   position: fixed;
   width: 100%;
   z-index: 10;
+  background: ${COLORS.DARK1};
   .header {
-    background: ${COLORS.DARK1};
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
     color: ${COLORS.WHITE};
     * {
       cursor: pointer;
