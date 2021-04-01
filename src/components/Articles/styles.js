@@ -5,7 +5,8 @@ export const StyledList = styled.div`
   flex-direction: column;
   text-align: center;
   justify-content: space-evenly;
-  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 
   a {
     text-decoration: none;

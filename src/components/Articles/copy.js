@@ -1,7 +1,7 @@
 export const mediumRssFeed =
   'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40grotoned';
 
-export const shownArticles = 5;
+export const shownArticles = 3;
 
 // used to parse the publication date of medium articles
 export const parseDate = (date) => {
