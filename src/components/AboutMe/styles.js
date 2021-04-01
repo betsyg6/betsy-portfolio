@@ -9,7 +9,7 @@ export const StyledSection = styled.div`
   }
 
   p {
-    font-size: 15px;
+    font-size: 1.4rem;
   }
 `;
 

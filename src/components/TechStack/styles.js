@@ -11,6 +11,12 @@ export const Col = styled.div`
   flex-direction: column;
   flex-basis: 100%;
   margin: 1em;
+
+  ul {
+    list-style-type: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.2rem;
+  }
 `;
 
 export const StyledList = styled.div`

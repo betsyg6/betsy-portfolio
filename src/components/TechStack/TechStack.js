@@ -34,9 +34,6 @@ const TechStack = () => {
             </ul>
           </Col>
         </Row>
-        <Row>
-          <Col>image placeholder</Col>
-        </Row>
       </Wrapper>
     </div>
   );

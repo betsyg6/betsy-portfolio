@@ -13,7 +13,7 @@ export const WrapperStyled = styled.div`
     margin-top: 70px;
     margin-left: 10px;
     width: 100%;
-    border-bottom: 1px solid ${COLORS.MEDIUM1};
+
     font-family: 'Bungee Shade', cursive;
     color: ${COLORS.DARK2};
   }
@@ -21,8 +21,8 @@ export const WrapperStyled = styled.div`
     font-family: 'Shippori Mincho B1', serif;
   }
   p {
-    font-size: 22px;
-    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.2rem;
+    font-family: 'Darker Grotesque', sans-serif;
   }
 `;
 
@@ -62,19 +62,20 @@ export const CardStyled = styled.div`
 `;
 
 export const ProjectStyled = styled.div`
-  border-radius: 7px;
-  width: 80%;
+  width: 60%;
   margin: 10%;
   height: 80%;
-  padding: 10px;
 
   ul {
     list-style-type: none;
     text-align: left;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.4rem;
   }
 
   p {
-    font-size: 15px;
+    font-size: 1.4rem;
+    font-family: 'Darker Grotesque', sans-serif;
   }
 
   img {
@@ -91,6 +92,8 @@ export const ProjectStyled = styled.div`
     border: solid 1px black;
     margin: 3px;
     padding: 5px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.4rem;
 
     &:hover {
       color: ${COLORS.MEDIUM1};
@@ -106,6 +109,9 @@ export const ArticleStyled = styled.div`
   width: auto;
   height: 80%;
   padding: 10px;
+
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.3rem;
 
   &:hover {
     color: ${COLORS.MEDIUM1};

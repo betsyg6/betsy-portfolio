@@ -5,6 +5,7 @@ export const StyledFooter = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Darker Grotesque', sans-serif;
 `;
 
 export const StyledList = styled.div`
@@ -13,4 +14,6 @@ export const StyledList = styled.div`
   flex-direction: row;
   text-align: center;
   justify-content: space-evenly;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.4rem;
 `;
