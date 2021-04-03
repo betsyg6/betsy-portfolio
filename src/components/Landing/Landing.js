@@ -1,23 +1,14 @@
 import React from 'react';
 import { Wrapper } from '../../ui-components/Wrapper';
 import Typical from 'react-typical';
-import { StyledList, StyledSection } from './styles';
-import { contact } from '../Footer/copy';
+import { StyledSection } from './styles';
+import ContactMe from '../ContactMe/ContactMe';
 
 const Landing = () => {
   return (
     <Wrapper>
       <StyledSection>
-        <h1>Betsy Groton</h1>{' '}
-        <StyledList>
-          {contact.map((info) => {
-            return (
-              <a href={info.link} key={info.link}>
-                {info.name}
-              </a>
-            );
-          })}
-        </StyledList>
+        <h1>Betsy Groton</h1> <ContactMe />
         <Typical
           steps={[
             "Hi, I'm Betsy",

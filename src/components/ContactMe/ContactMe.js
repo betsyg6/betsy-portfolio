@@ -1,24 +1,32 @@
 import React from 'react';
-import { Card, HalfWrapper } from '../../ui-components';
-import { StyledSection, StyledList } from './styles';
-import { contact } from './copy';
+import { StyledList } from './styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane, faFile } from '@fortawesome/free-solid-svg-icons';
+import {
+  faMediumM,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 
 const ContactMe = () => {
   return (
-    <StyledSection id="contact-me">
-      <HalfWrapper>
-        <h1>Contact Me</h1>
-        <StyledList>
-          {contact.map((info) => {
-            return (
-              <a href={info.link} key={info.link}>
-                <Card info={info.name} />
-              </a>
-            );
-          })}
-        </StyledList>
-      </HalfWrapper>
-    </StyledSection>
+    <StyledList>
+      <a href="https://betsyg6.github.io/Resume/">
+        <FontAwesomeIcon icon={faFile} />
+      </a>
+      <a href="https://github.com/betsyg6">
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
+      <a href="https://www.linkedin.com/in/elizabethgroton">
+        <FontAwesomeIcon icon={faLinkedin} />
+      </a>
+      <a href="mailto:grotoned@gmail.com">
+        <FontAwesomeIcon icon={faPaperPlane} />
+      </a>
+      <a href="https://grotoned.medium.com">
+        <FontAwesomeIcon icon={faMediumM} />
+      </a>
+    </StyledList>
   );
 };
 
