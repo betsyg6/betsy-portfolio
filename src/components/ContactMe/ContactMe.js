@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledList } from './styles';
+import { ContactList } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faFile } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -10,7 +10,7 @@ import {
 
 const ContactMe = () => {
   return (
-    <StyledList>
+    <ContactList>
       <a href="https://betsyg6.github.io/Resume/">
         <FontAwesomeIcon icon={faFile} />
       </a>
@@ -26,7 +26,7 @@ const ContactMe = () => {
       <a href="https://grotoned.medium.com">
         <FontAwesomeIcon icon={faMediumM} />
       </a>
-    </StyledList>
+    </ContactList>
   );
 };
 

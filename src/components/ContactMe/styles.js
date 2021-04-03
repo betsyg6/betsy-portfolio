@@ -1,16 +1,7 @@
 import styled from 'styled-components';
 import * as COLORS from '../../constants/colors';
 
-export const StyledSection = styled.div`
-  background-color: ${COLORS.LIGHT2};
-
-  a {
-    text-decoration: none;
-    color: black;
-  }
-`;
-
-export const StyledList = styled.div`
+export const ContactList = styled.div`
   display: flex;
   width: 40%;
   flex-direction: row;
