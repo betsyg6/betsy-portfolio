@@ -62,44 +62,131 @@ export const CardStyled = styled.div`
 `;
 
 export const ProjectStyled = styled.div`
-  width: 60%;
-  margin: 10%;
-  height: 80%;
+margin: 1rem;
 
-  ul {
-    list-style-type: none;
-    text-align: left;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 1.4rem;
-  }
-
-  p {
-    font-size: 1.4rem;
-    font-family: 'Darker Grotesque', sans-serif;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    box-shadow: 10px 10px 6px 1px ${COLORS.MEDIUM1};
-  }
-
-  a {
-    margin: 2em;
-    text-decoration: none;
-    color: black;
-    border-radius: 7px;
-    border: solid 1px black;
-    margin: 3px;
-    padding: 5px;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 1.4rem;
+  .post {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    
 
     &:hover {
-      color: ${COLORS.MEDIUM1};
-      border: solid 1px ${COLORS.MEDIUM1};
+       img {
+          transform: translatey(-10px) translatex(-5px) scale(1.05)
+       }
+    }
+
+    .header_post {
+      width: 100%;
+      height: 30%;
+      background: white;
+      position: absolute;
+      top: 0;
+      cursor: pointer;
+     
+
+      img {
+        max-width: 100%;
+        height: auto;
+         transition: ease-in-out 600ms;
+      }
+    }
+
+    .body_post {
+      width: 100%;
+      height: 70%;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+
+      .post_content {
+        width: 80%;
+        height: 80%;
+        background: #fff;
+        position: relative;
+
+        h2 {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 17px;
+          font-weight: normal;
+        }
+
+        .container_infos {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          position: absolute;
+          bottom: 0;
+          border-top: 1px solid rgba(0, 0, 0, .2);
+          padding-top: 25px;
+
+          .postedBy {
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 12px;
+
+            span {
+              font-size: 12px;
+              text-transform: uppercase;
+              opacity: 0.5;
+              letter-spacing: 1px;
+              font-weight: bold;
+            }
+          }
+
+          .container_tags {
+            display: flex;
+            flex-direction: column;
+
+            span {
+              font-size: 12px;
+              text-transform: uppercase;
+              opacity: 0.5;
+              letter-spacing: 1px;
+              font-weight: bold;
+            }
+
+            .tags {
+              ul {
+                display: flex;
+                li {
+                  font-size: 12px;
+                  letter-spacing: 2px;
+                  list-style: none;
+                  margin-left: 8px;
+                  text-transform: uppercase;
+                  position: relative;
+                  z-index: 1;
+                  display: flex;
+                  justify-content: center;
+                  cursor: pointer;
+
+                  &:first-child {
+                    margin-left: 0px;
+                  } 
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
+
 `;
 
 export const ArticleStyled = styled.div`
