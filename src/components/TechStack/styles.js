@@ -1,11 +1,11 @@
-import styled from 'styled-components';
-import * as COLORS from '../../constants/colors';
+import styled from 'styled-components'
+import * as COLORS from '../../constants/colors'
 
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-`;
+`
 
 export const Column = styled.div`
   display: flex;
@@ -50,23 +50,23 @@ export const Column = styled.div`
           transform: translate(-30px, -30px);
           border-color: ${COLORS.MEDIUM1};
 
-          .card--display {
+          .card-display {
             display: none;
           }
 
-          .card--hover {
+          .card-hover {
             display: block;
           }
         }
 
-        .card--display {
+        .card-display {
           h2 {
             margin: 5px 0 0;
             padding-top: 5px;
           }
         }
 
-        .card--hover {
+        .card-hover {
           display: none;
 
           h2 {
@@ -75,7 +75,7 @@ export const Column = styled.div`
         }
       }
 
-      .card--border {
+      .card-border {
         position: absolute;
         width: 98%;
         height: 99%;
@@ -86,5 +86,4 @@ export const Column = styled.div`
       }
     }
   }
-`;
-
+`
