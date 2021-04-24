@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import * as COLORS from '../../../../constants/colors';
 
-export const ProjectStyled = styled.div`
+export const Project = styled.div`
 margin: 1rem;
 
 li {

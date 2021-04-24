@@ -1,15 +1,15 @@
 import React from 'react';
-import { StyledSection, StyledContents } from './styles';
+import { Section, Contents } from './styles';
 import { projects } from './copy';
 import Wrapper from '../../ui-components/Wrapper';
 import ProjectCard from './components/ProjectCard'
 
 const Projects = () => {
   return (
-    <StyledSection id="projects">
+    <Section id="projects">
       <Wrapper>
         <h1>Projects</h1>
-        <StyledContents>
+        <Contents>
             {projects.map((project) => {
               return (
                 <ProjectCard
@@ -18,9 +18,9 @@ const Projects = () => {
                 />
               );
             })}
-        </StyledContents>
+        </Contents>
       </Wrapper>
-    </StyledSection>
+    </Section>
   );
 };
 

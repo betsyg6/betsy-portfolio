@@ -1,11 +1,11 @@
 import React from 'react';
-import { ProjectStyled } from './styles';
+import { Project } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectCard = ({ project }) => {
   return (
-    <ProjectStyled>
+    <Project>
       <div className='post'>
         <div className='header_post'>
           <img src={project.image} />
@@ -35,7 +35,7 @@ const ProjectCard = ({ project }) => {
           </div>
         </div>
       </div>
-    </ProjectStyled>
+    </Project>
   );
 };
 

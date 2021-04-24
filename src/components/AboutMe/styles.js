@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import * as COLORS from '../../constants/colors';
 
-export const StyledSection = styled.div`
+export const Section = styled.div`
   background-color: ${COLORS.LIGHT2};
 
   h1 {
@@ -20,7 +20,7 @@ export const Row = styled.div`
   margin-bottom: 1em;
 `;
 
-export const Col = styled.div`
+export const Column = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;

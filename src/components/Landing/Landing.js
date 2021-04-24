@@ -1,13 +1,13 @@
 import React from 'react';
 import Wrapper from '../../ui-components/Wrapper';
 import Typical from 'react-typical';
-import { StyledSection } from './styles';
+import { Section } from './styles';
 import ContactMe from '../ContactMe/ContactMe';
 
 const Landing = () => {
   return (
     <Wrapper>
-      <StyledSection>
+      <Section>
         <h1>Betsy Groton</h1> <ContactMe />
         <Typical
           steps={[
@@ -21,7 +21,7 @@ const Landing = () => {
           loop={Infinity}
           wrapper="h2"
         />
-      </StyledSection>
+      </Section>
     </Wrapper>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '../../ui-components/Wrapper';
 import { languages, libraries, tools } from './copy';
-import { Row, Col } from './styles';
+import { Row, Column } from './styles';
 
 const TechStack = () => {
   return (
@@ -9,7 +9,7 @@ const TechStack = () => {
       <Wrapper>
         <h1>Tech Stack</h1>
         <Row>
-          <Col>
+          <Column>
             <div className="card-container">
               <div className="card">
                 <a>
@@ -30,8 +30,8 @@ const TechStack = () => {
                 <div className="card--border" />
               </div>
             </div>
-          </Col>
-          <Col>
+          </Column>
+          <Column>
             <div className="card-container">
               <div className="card">
                 <a>
@@ -52,8 +52,8 @@ const TechStack = () => {
                 <div className="card--border" />
               </div>
             </div>
-          </Col>
-          <Col>
+          </Column>
+          <Column>
             <div className="card-container">
               <div className="card">
                 <a>
@@ -72,7 +72,7 @@ const TechStack = () => {
                 <div className="card--border" />
               </div>
             </div>
-          </Col>
+          </Column>
         </Row>
       </Wrapper>
     </div>

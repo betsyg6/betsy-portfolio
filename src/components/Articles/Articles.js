@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Wrapper from '../../ui-components/Wrapper';
 import ArticleCard from './components/ArticleCard'
 import { mediumRssFeed, shownArticles } from './copy';
-import { StyledList } from './styles';
+import { List } from './styles';
 
 const Articles = () => {
   const MAX_ARTICLES = shownArticles;
@@ -26,12 +26,12 @@ const Articles = () => {
     <div id="articles">
       <Wrapper>
         <h1>Articles</h1>
-        <StyledList>
+        <List>
           {articles &&
             articles.map((article) => {
               return <ArticleCard key={article.link} article={article} />;
             })}
-        </StyledList>
+        </List>
       </Wrapper>
     </div>
   );

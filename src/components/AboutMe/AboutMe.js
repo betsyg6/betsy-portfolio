@@ -1,29 +1,29 @@
 import React from 'react';
 import Wrapper from '../../ui-components/Wrapper';
-import { StyledSection, Row, Col } from './styles';
+import { Section, Row, Column } from './styles';
 import { aboutMeText1, aboutMeText2 } from './copy';
 import betsy from '../../../images/betsy.jpg';
 
 const AboutMe = () => {
   return (
-    <StyledSection id="about-me">
+    <Section id="about-me">
       <Wrapper>
         <h1>About Me</h1>
         <Row>
-          <Col>
+          <Column>
             <img src={betsy} />
-          </Col>
+          </Column>
         </Row>
         <Row>
-          <Col>
+          <Column>
             <p>{aboutMeText1}</p>
-          </Col>
-          <Col>
+          </Column>
+          <Column>
             <p>{aboutMeText2}</p>
-          </Col>
+          </Column>
         </Row>
       </Wrapper>
-    </StyledSection>
+    </Section>
   );
 };
 

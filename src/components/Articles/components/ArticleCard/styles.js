@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import * as COLORS from '../../../../constants/colors';
 
-export const ArticleStyled = styled.div`
+export const Article = styled.div`
 background-color: var(${COLORS.MEDIUM1});
 display: block;
 font-family: 'Darker Grotesque', sans-serif;

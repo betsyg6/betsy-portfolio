@@ -7,7 +7,7 @@ export const Row = styled.div`
   width: 100%;
 `;
 
-export const Col = styled.div`
+export const Column = styled.div`
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -88,11 +88,3 @@ export const Col = styled.div`
   }
 `;
 
-export const StyledList = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 20px;
-  width: 100%;
-`;
