@@ -18,7 +18,7 @@ export const Column = styled.div`
   ul {
     list-style-type: none;
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .card-container {
@@ -31,14 +31,14 @@ export const Column = styled.div`
       width: 100%;
 
       a {
-        padding: 30px;
+        padding: 20px;
         padding-top: 5px;
         width: auto;
-        height: 400px;
-        border: 2px solid black;
+        height: 550px;
+        border: 2px solid ${COLORS.MEDIUM1};
         background: white;
         text-decoration: none;
-        color: black;
+        color: ${COLORS.DARK2};
         display: block;
         transition: 0.25s ease;
 
@@ -81,7 +81,7 @@ export const Column = styled.div`
         height: 99%;
         left: 0;
         top: 0;
-        border: 2px dashed black;
+        border: 2px dashed ${COLORS.MEDIUM2};
         z-index: -1;
       }
     }

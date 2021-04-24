@@ -3,6 +3,7 @@ import * as COLORS from '../../../../constants/colors'
 
 export const Project = styled.div`
   margin: 1rem;
+  border: 2px solid ${COLORS.MEDIUM1};
 
   li {
     list-style: none;

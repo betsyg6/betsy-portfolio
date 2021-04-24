@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import { NavBar } from './styles';
+import React from 'react'
+import { Link } from 'react-scroll'
+import { NavBar } from './styles'
 
 const Navigation = () => {
   return (
@@ -8,12 +8,12 @@ const Navigation = () => {
       <div className="header">
         <Link
           activeClass="active"
-          to="about-me"
+          to="projects"
           spy={true}
           smooth={true}
           duration={1000}
         >
-          About Me
+          Projects
         </Link>
         <Link
           activeClass="active"
@@ -26,15 +26,6 @@ const Navigation = () => {
         </Link>
         <Link
           activeClass="active"
-          to="projects"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Projects
-        </Link>
-        <Link
-          activeClass="active"
           to="articles"
           spy={true}
           smooth={true}
@@ -42,9 +33,18 @@ const Navigation = () => {
         >
           Articles
         </Link>
+        <Link
+          activeClass="active"
+          to="about-me"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          About Me
+        </Link>
       </div>
     </NavBar>
-  );
-};
+  )
+}
 
-export default Navigation;
+export default Navigation
