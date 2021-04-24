@@ -1,6 +1,4 @@
-export const languages = ['Javascript', 'HTML', 'CSS'];
-
-export const libraries = [
+export const techStack = [{title: 'Languages', stack: ['Javascript', 'HTML', 'CSS']}, { title: 'Libraries', stack: [
   'Node',
   'Express',
   'React',
@@ -16,9 +14,7 @@ export const libraries = [
   'Gatsby',
   'Victory',
   'Socket.io',
-];
-
-export const tools = [
+]}, {title: 'Tools', stack: [
   'Git',
   'Github',
   'PostgreSQL',
@@ -33,7 +29,4 @@ export const tools = [
   'Google OAuth',
   'Webpack',
   'Babel',
-];
-
-// need to add icons?
-// possibly insert an image here
+] } ]
