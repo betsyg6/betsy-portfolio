@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper } from '../../ui-components/Wrapper';
+import Wrapper from '../../ui-components/Wrapper';
 import { StyledSection, Row, Col } from './styles';
 import { aboutMeText1, aboutMeText2 } from './copy';
 import betsy from '../../../images/betsy.jpg';

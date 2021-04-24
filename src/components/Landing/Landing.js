@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper } from '../../ui-components/Wrapper';
+import Wrapper from '../../ui-components/Wrapper';
 import Typical from 'react-typical';
 import { StyledSection } from './styles';
 import ContactMe from '../ContactMe/ContactMe';

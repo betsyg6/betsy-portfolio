@@ -7,11 +7,8 @@ export const StyledSection = styled.div`
 
 export const StyledContents = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 
-  .slick-dots {
-    bottom: 3rem;
-  }
 `;

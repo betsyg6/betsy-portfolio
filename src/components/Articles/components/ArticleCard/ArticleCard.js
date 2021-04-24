@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArticleStyled } from './styles';
-import { parseDate } from '../components/Articles/copy';
+import { parseDate } from '../../copy';
 
 const ArticleCard = ({ article }) => {
   return (

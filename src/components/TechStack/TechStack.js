@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper } from '../../ui-components/';
+import Wrapper from '../../ui-components/Wrapper';
 import { languages, libraries, tools } from './copy';
 import { Row, Col } from './styles';
 

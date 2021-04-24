@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Wrapper, ArticleCard } from '../../ui-components';
+import Wrapper from '../../ui-components/Wrapper';
+import ArticleCard from './components/ArticleCard'
 import { mediumRssFeed, shownArticles } from './copy';
 import { StyledList } from './styles';
 
