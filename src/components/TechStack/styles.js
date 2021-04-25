@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 import * as COLORS from '../../constants/colors'
 
+export const Icon = styled.a`
+  outline: none;
+  text-decoration: none;
+  color: ${COLORS.MEDIUM2};
+`
+
 export const Row = styled.div`
   display: flex;
   flex-direction: row;

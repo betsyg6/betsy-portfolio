@@ -1,5 +1,17 @@
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGem,
+  faFolderOpen,
+  faObjectGroup,
+} from '@fortawesome/free-solid-svg-icons'
+
 export const techStack = [
-  { title: 'Languages', stack: ['Javascript', 'HTML', 'CSS'] },
+  {
+    title: 'Languages',
+    stack: ['Javascript', 'HTML', 'CSS'],
+    icon: <FontAwesomeIcon icon={faGem} />,
+  },
   {
     title: 'Libraries',
     stack: [
@@ -19,6 +31,7 @@ export const techStack = [
       'Victory',
       'Socket.io',
     ],
+    icon: <FontAwesomeIcon icon={faFolderOpen} />,
   },
   {
     title: 'Tools',
@@ -38,5 +51,6 @@ export const techStack = [
       'Webpack',
       'Babel',
     ],
+    icon: <FontAwesomeIcon icon={faObjectGroup} />,
   },
 ]

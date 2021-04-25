@@ -17,6 +17,7 @@ const TechStack = () => {
                     <a>
                       <div className="card-display">
                         <h2>{tech.title}</h2>
+                        <div className="icon">{tech.icon}</div>
                       </div>
                       <div className="card-hover">
                         <h2>{tech.title}</h2>
