@@ -30,8 +30,12 @@ export const Column = styled.div`
   }
 
   img {
-    width: 80%;
+    width: 70%;
     height: auto;
-    box-shadow: 20px 20px 12px 1px ${COLORS.MEDIUM1};
+    box-shadow: 20px 20px 12px 1px ${COLORS.WHITE};
   }
+`
+
+export const TextWrapper = styled.div`
+  background-color: ${COLORS.WHITE};
 `

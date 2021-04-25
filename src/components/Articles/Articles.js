@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import Wrapper from '../../ui-components/Wrapper';
+import React, { useState, useEffect } from 'react'
+import Wrapper from '../../ui-components/Wrapper'
 import ArticleCard from './components/ArticleCard'
-import { mediumRssFeed, shownArticles } from './copy';
-import { List } from './styles';
+import { mediumRssFeed, shownArticles } from './copy'
+import { List, Row } from './styles'
 
 const Articles = () => {
-  const MAX_ARTICLES = shownArticles;
-  const [articles, setArticles] = useState();
+  const MAX_ARTICLES = shownArticles
+  const [articles, setArticles] = useState()
 
   useEffect(() => {
     const loadArticles = async () => {
@@ -17,24 +17,26 @@ const Articles = () => {
         .then((data) => data.items.filter((item) => item.categories.length > 0))
         .then((newArticles) => newArticles.slice(0, MAX_ARTICLES))
         .then((articles) => setArticles(articles))
-        .catch((error) => console.log(error));
-    };
-    loadArticles();
-  }, [MAX_ARTICLES]);
+        .catch((error) => console.log(error))
+    }
+    loadArticles()
+  }, [MAX_ARTICLES])
 
   return (
     <div id="articles">
       <Wrapper>
         <h1>Articles</h1>
-        <List>
-          {articles &&
-            articles.map((article) => {
-              return <ArticleCard key={article.link} article={article} />;
-            })}
-        </List>
+        <Row>
+          <List>
+            {articles &&
+              articles.map((article) => {
+                return <ArticleCard key={article.link} article={article} />
+              })}
+          </List>
+        </Row>
       </Wrapper>
     </div>
-  );
-};
+  )
+}
 
-export default Articles;
+export default Articles

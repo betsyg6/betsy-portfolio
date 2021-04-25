@@ -1,8 +1,8 @@
-import React from 'react';
-import Wrapper from '../../ui-components/Wrapper';
-import { Section, Row, Column } from './styles';
-import { aboutMeText1, aboutMeText2 } from './copy';
-import betsy from '../../../images/betsy.jpg';
+import React from 'react'
+import Wrapper from '../../ui-components/Wrapper'
+import { Section, Row, Column, TextWrapper } from './styles'
+import { aboutMeText1, aboutMeText2 } from './copy'
+import betsy from '../../../images/betsy.jpg'
 
 const AboutMe = () => {
   return (
@@ -15,16 +15,18 @@ const AboutMe = () => {
           </Column>
         </Row>
         <Row>
-          <Column>
-            <p>{aboutMeText1}</p>
-          </Column>
-          <Column>
-            <p>{aboutMeText2}</p>
-          </Column>
+          <TextWrapper>
+            <Column>
+              <p>{aboutMeText1}</p>
+            </Column>
+            <Column>
+              <p>{aboutMeText2}</p>
+            </Column>
+          </TextWrapper>
         </Row>
       </Wrapper>
     </Section>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe
