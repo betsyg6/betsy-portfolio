@@ -6,16 +6,26 @@ import Navigation from '../Navigation'
 import Projects from '../Projects'
 import TechStack from '../TechStack'
 import Footer from '../Footer'
+import { Parallax } from 'react-parallax'
+import winter from '../../../images/winter.jpg'
+import summer from '../../../images/summer.JPG'
+import fall from '../../../images/fall.jpg'
 
 const App = () => {
   return (
     <>
       <Navigation />
-      <Landing />
+      <Parallax bgImage={summer} strength={500}>
+        <Landing />
+      </Parallax>
       <Projects />
-      <TechStack />
+      <Parallax bgImage={fall} strength={500}>
+        <TechStack />
+      </Parallax>
       <Articles />
-      <AboutMe />
+      <Parallax bgImage={winter} strength={500}>
+        <AboutMe />
+      </Parallax>
       <Footer />
     </>
   )

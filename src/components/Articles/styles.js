@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const List = styled.div`
   display: flex;
-  flex-direction: column;
+
   text-align: center;
   justify-content: space-evenly;
   margin-left: auto;
@@ -12,4 +12,4 @@ export const List = styled.div`
     text-decoration: none;
     color: black;
   }
-`;
+`

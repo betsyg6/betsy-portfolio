@@ -1,8 +1,8 @@
-import React from 'react';
-import Wrapper from '../../ui-components/Wrapper';
-import Typical from 'react-typical';
-import { Section } from './styles';
-import ContactMe from '../ContactMe/ContactMe';
+import React from 'react'
+import Wrapper from '../../ui-components/Wrapper'
+import Typical from 'react-typical'
+import { Section } from './styles'
+import ContactMe from '../ContactMe/ContactMe'
 
 const Landing = () => {
   return (
@@ -23,7 +23,7 @@ const Landing = () => {
         />
       </Section>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Landing;
+export default Landing

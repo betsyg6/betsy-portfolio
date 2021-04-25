@@ -5,6 +5,10 @@ export const Project = styled.div`
   margin: 1rem;
   border: 2px solid ${COLORS.MEDIUM1};
 
+  &:hover {
+    border: 2px solid ${COLORS.MEDIUM2};
+  }
+
   li {
     list-style: none;
     font-family: 'Darker Grotesque', sans-serif;
