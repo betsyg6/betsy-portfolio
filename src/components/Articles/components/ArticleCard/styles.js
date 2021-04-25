@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import * as COLORS from '../../../../constants/colors'
 
 export const Article = styled.div`
-  background-color: var(${COLORS.MEDIUM1});
+  background-color: ${COLORS.WHITE};
   display: block;
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 1.4rem;
@@ -24,7 +24,6 @@ export const Article = styled.div`
   &:hover {
     top: -40px;
     left: 40px;
-    background-color: ${COLORS.LIGHT2};
     color: ${COLORS.MEDIUM1};
     box-shadow: 0 0 0 -3px ${COLORS.WHITE}, 0 0 0 0 ${COLORS.MEDIUM2},
       0 0 0 -3px ${COLORS.WHITE}, 0 0 0 0 ${COLORS.MEDIUM1},

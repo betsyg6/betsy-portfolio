@@ -7,8 +7,8 @@ import betsy from '../../../images/betsy.jpg'
 const AboutMe = () => {
   return (
     <Section id="about-me">
-      <Wrapper>
-        <h1>About Me</h1>
+      <Wrapper className="full">
+        <h1 className="dark-header">About Me</h1>
         <Row>
           <Column>
             <img src={betsy} />

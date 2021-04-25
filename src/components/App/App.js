@@ -5,6 +5,7 @@ import Landing from '../Landing'
 import Navigation from '../Navigation'
 import Projects from '../Projects'
 import TechStack from '../TechStack'
+import Summary from '../Summary'
 import Footer from '../Footer'
 import { Parallax } from 'react-parallax'
 import winter from '../../../images/winter.jpg'
@@ -18,14 +19,17 @@ const App = () => {
       <Parallax bgImage={summer} strength={500}>
         <Landing />
       </Parallax>
-      <Projects />
+      <Summary />
       <Parallax bgImage={fall} strength={500}>
-        <TechStack />
+        <Projects />
       </Parallax>
-      <Articles />
+      <TechStack />
       <Parallax bgImage={winter} strength={500}>
-        <AboutMe />
+        <Articles />
       </Parallax>
+
+      <AboutMe />
+
       <Footer />
     </>
   )

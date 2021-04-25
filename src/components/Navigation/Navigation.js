@@ -15,15 +15,7 @@ const Navigation = () => {
         >
           Projects
         </Link>
-        <Link
-          activeClass="active"
-          to="tech-stack"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Tech Stack
-        </Link>
+
         <Link
           activeClass="active"
           to="articles"

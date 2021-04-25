@@ -32,7 +32,7 @@ export const Column = styled.div`
   img {
     width: 70%;
     height: auto;
-    box-shadow: 20px 20px 12px 1px ${COLORS.WHITE};
+    border: 10px solid ${COLORS.WHITE};
   }
 `
 

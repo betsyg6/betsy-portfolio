@@ -6,33 +6,17 @@ import { Row, Column } from './styles'
 const TechStack = () => {
   return (
     <div id="tech-stack">
-      <Wrapper>
-        <h1>Tech Stack</h1>
+      <Wrapper className="third">
         <Row>
           {techStack.map((tech) => {
             return (
               <Column key={techStack.indexOf(tech)}>
-                <div className="card-container">
-                  <div className="card">
-                    <a>
-                      <div className="card-display">
-                        <h2>{tech.title}</h2>
-                        <div className="icon">{tech.icon}</div>
-                      </div>
-                      <div className="card-hover">
-                        <h2>{tech.title}</h2>
-                        <ul>
-                          {tech.stack.map((type) => {
-                            return (
-                              <li key={type.indexOf(tech.stack)}>{type} </li>
-                            )
-                          })}
-                        </ul>
-                      </div>
-                    </a>
-                    <div className="card-border" />
-                  </div>
-                </div>
+                <h2>{tech.title}</h2>
+                <ul>
+                  {tech.stack.map((type) => {
+                    return <li key={type.indexOf(tech.stack)}>{type} </li>
+                  })}
+                </ul>
               </Column>
             )
           })}

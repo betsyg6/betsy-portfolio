@@ -14,10 +14,13 @@ export const Section = styled.div`
     margin-top: 0px;
     margin-left: 0px;
   }
+
+  h2 {
+    background-color: ${COLORS.WHITE};
+  }
 `
 
 export const TextWrapper = styled.div`
-  background-color: ${COLORS.WHITE};
   display: flex;
   flex-direction: column;
   text-align: center;
