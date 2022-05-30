@@ -1,7 +1,11 @@
 import React from 'react'
 import Wrapper from '../../ui-components/Wrapper'
 import { Section, Row, Column, TextWrapper } from './styles'
-import { aboutMeText1, aboutMeText2 } from './copy'
+import {
+  aboutMe_teaching,
+  aboutMe_codingBootcamp,
+  aboutMe_engineering,
+} from './copy'
 import betsy from '../../../images/betsy.jpg'
 
 const AboutMe = () => {
@@ -17,10 +21,13 @@ const AboutMe = () => {
         <Row>
           <TextWrapper>
             <Column>
-              <p>{aboutMeText1}</p>
+              <p>{aboutMe_teaching}</p>
             </Column>
             <Column>
-              <p>{aboutMeText2}</p>
+              <p>{aboutMe_codingBootcamp}</p>
+            </Column>
+            <Column>
+              <p>{aboutMe_engineering}</p>
             </Column>
           </TextWrapper>
         </Row>

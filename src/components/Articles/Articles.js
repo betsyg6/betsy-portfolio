@@ -25,7 +25,7 @@ const Articles = () => {
   return (
     <div id="articles">
       <Wrapper className="full">
-        <h1 className="light-header">Articles</h1>
+        <h1>Articles</h1>
         <Row>
           <List>
             {articles &&

@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <Wrapper className="full">
       <Section>
-        <h1 className="light-header name">Betsy Groton</h1>
+        <h1 className="name">Betsy Groton</h1>
         <ContactMe />
         <Typical
           steps={[

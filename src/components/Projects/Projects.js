@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Section id="projects">
       <Wrapper className="full">
-        <h1 className="light-header">Projects</h1>
+        <h1>Projects</h1>
         <Contents>
           {projects.map((project) => {
             return (
