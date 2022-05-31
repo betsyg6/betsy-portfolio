@@ -3,11 +3,14 @@ import * as COLORS from '../../../../constants/colors'
 
 export const Article = styled.div`
   background-color: ${COLORS.WHITE};
-  display: block;
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 1.4rem;
-  width: 300px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
   border: 3px solid ${COLORS.MEDIUM1};
   padding: 15px;
   margin: 50px;
@@ -20,6 +23,11 @@ export const Article = styled.div`
   top: 0;
   left: 0;
   cursor: pointer;
+
+  &:after {
+    display: block;
+    padding-bottom: 100%;
+  }
 
   &:hover {
     top: -40px;

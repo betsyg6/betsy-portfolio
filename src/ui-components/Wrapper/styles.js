@@ -4,6 +4,7 @@ import * as COLORS from '../../constants/colors'
 export const WrapperStyled = styled.div`
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   margin-left: 15%;
   margin-right: 15%;
 

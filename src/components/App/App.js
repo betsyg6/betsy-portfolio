@@ -19,11 +19,11 @@ const App = () => {
       <Parallax strength={500}>
         <Landing />
       </Parallax>
-      <Summary />
+      {/* <Summary /> */}
       <Parallax strength={500}>
         <Projects />
       </Parallax>
-      <TechStack />
+      {/* <TechStack /> */}
       <Parallax strength={500}>
         <Articles />
       </Parallax>
