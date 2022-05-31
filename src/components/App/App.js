@@ -8,9 +8,6 @@ import TechStack from '../TechStack'
 import Summary from '../Summary'
 import Footer from '../Footer'
 import { Parallax } from 'react-parallax'
-// import winter from '../../../images/winter.jpg'
-// import summer from '../../../images/summer.JPG'
-// import fall from '../../../images/fall.jpg'
 
 const App = () => {
   return (

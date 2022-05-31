@@ -6,7 +6,7 @@ import ContactMe from '../ContactMe/ContactMe'
 
 const Landing = () => {
   return (
-    <Wrapper className="full">
+    <Wrapper className="third">
       <Section>
         <h1 className="name">Betsy Groton</h1>
         <ContactMe />
