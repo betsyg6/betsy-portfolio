@@ -1,40 +1,40 @@
 export const mediumRssFeed =
-  'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40grotoned';
+  'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40grotoned'
 
-export const shownArticles = 3;
+export const shownArticles = 3
 
 // used to parse the publication date of medium articles
 export const parseDate = (date) => {
-  const year = date.substring(0, 4);
-  const month = date.substring(5, 7);
-  const day = date.substring(8, 10);
+  const year = date.substring(0, 4)
+  const month = date.substring(5, 7)
+  const day = date.substring(8, 10)
 
   switch (month) {
     case '01':
-      return day + ' January ' + year;
+      return ' January ' + day + ', ' + year
     case '02':
-      return day + ' February ' + year;
+      return ' February ' + day + ', ' + year
     case '03':
-      return day + ' March ' + year;
+      return ' March ' + day + ', ' + year
     case '04':
-      return day + ' April ' + year;
+      return ' April ' + day + ', ' + year
     case '05':
-      return day + ' May ' + year;
+      return ' May ' + day + ', ' + year
     case '06':
-      return day + ' June ' + year;
+      return ' June ' + day + ', ' + year
     case '07':
-      return day + ' July ' + year;
+      return ' July ' + day + ', ' + year
     case '08':
-      return day + ' August ' + year;
+      return ' August ' + day + ', ' + year
     case '09':
-      return day + ' September ' + year;
+      return ' September ' + day + ', ' + year
     case '10':
-      return day + ' October ' + year;
+      return ' October ' + day + ', ' + year
     case '11':
-      return day + ' November ' + year;
+      return ' November ' + day + ', ' + year
     case '12':
-      return day + ' December ' + year;
+      return ' December ' + day + ', ' + year
     default:
-      return 'No publication date';
+      return 'No publication date'
   }
-};
+}

@@ -18,13 +18,13 @@ const App = () => {
       </Parallax>
       {/* <Summary /> */}
       <Parallax strength={500}>
-        <Projects />
+        <AboutMe />
       </Parallax>
       {/* <TechStack /> */}
       <Parallax strength={500}>
-        <Articles />
+        <Projects />
       </Parallax>
-      <AboutMe />
+      <Articles />
       <Footer />
     </>
   )

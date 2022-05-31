@@ -1,9 +1,9 @@
-import goalStreaker from '../../../images/goalstreaker.png';
-import goBark from '../../../images/gobark.png';
-import hallowoof from '../../../images/hallowoof.png';
-import mapIt from '../../../images/mapit.png';
-import shareMyNumbers from '../../../images/sharemynumbers.png';
-import weatherWatcher from '../../../images/weatherwatcher.png';
+import goalStreaker from '../../../images/goalstreaker.png'
+import goBark from '../../../images/gobark.png'
+import hallowoof from '../../../images/hallowoof.png'
+import mapIt from '../../../images/mapit.png'
+import shareMyNumbers from '../../../images/sharemynumbers.png'
+import weatherWatcher from '../../../images/weatherwatcher.png'
 
 export const projects = [
   {
@@ -69,18 +69,9 @@ export const projects = [
     title: 'HalloWOOF Costumes',
     description:
       "HalloWOOF is an e-commerce store that sells Halloween costumes for dogs. Don't let your pup go another Halloween without an eye-catching costume!",
-    tech: [
-      'React',
-      'Redux',
-      'Node',
-      'Express',
-      'Sequelize',
-      'PostgreSQL',
-    ],
+    tech: ['React', 'Redux', 'Node', 'Express', 'Sequelize', 'PostgreSQL'],
     website: 'https://hallowoof.herokuapp.com/',
     github: 'https://github.com/Grace-Shopper-BG-JL-AV/grace-shopper',
     image: hallowoof,
   },
-];
-
-// need to add img, headline
+]

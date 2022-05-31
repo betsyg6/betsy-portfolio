@@ -8,6 +8,15 @@ const Navigation = () => {
       <div className="header">
         <Link
           activeClass="active"
+          to="about-me"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          About Me
+        </Link>
+        <Link
+          activeClass="active"
           to="projects"
           spy={true}
           smooth={true}
@@ -15,7 +24,6 @@ const Navigation = () => {
         >
           Projects
         </Link>
-
         <Link
           activeClass="active"
           to="articles"
@@ -24,15 +32,6 @@ const Navigation = () => {
           duration={1000}
         >
           Articles
-        </Link>
-        <Link
-          activeClass="active"
-          to="about-me"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          About Me
         </Link>
       </div>
     </NavBar>

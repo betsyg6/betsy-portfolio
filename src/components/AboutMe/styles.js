@@ -30,9 +30,11 @@ export const Column = styled.div`
   }
 
   img {
+    margin-top: 40px;
     width: 70%;
     height: auto;
-    border: 10px solid ${COLORS.WHITE};
+    border: 10px solid ${COLORS.LIGHT1};
+    border-radius: 20%;
   }
 `
 

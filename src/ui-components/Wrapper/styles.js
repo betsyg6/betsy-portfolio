@@ -22,10 +22,11 @@ export const WrapperStyled = styled.div`
     margin-left: 10px;
     width: 100%;
     font-family: 'Bungee Shade', cursive;
+    color: ${COLORS.DARK2};
   }
 
   .name {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .dark-header {

@@ -18,18 +18,3 @@ export const Section = styled.div`
     background-color: ${COLORS.WHITE};
   }
 `
-
-export const TextWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  width: 600px;
-
-  h1 {
-    border-bottom: 0px;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-`

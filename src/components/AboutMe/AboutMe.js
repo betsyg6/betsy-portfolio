@@ -12,7 +12,6 @@ const AboutMe = () => {
   return (
     <Section id="about-me">
       <Wrapper className="full">
-        <h1 className="dark-header">About Me</h1>
         <Row>
           <Column>
             <img src={betsy} />

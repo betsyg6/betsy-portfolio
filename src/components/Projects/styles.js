@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import * as COLORS from '../../constants/colors'
 
 export const Section = styled.div``
 

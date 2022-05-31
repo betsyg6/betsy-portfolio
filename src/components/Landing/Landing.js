@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from '../../ui-components/Wrapper'
 import Typical from 'react-typical'
-import { Section, TextWrapper } from './styles'
+import { Section } from './styles'
 import ContactMe from '../ContactMe/ContactMe'
 
 const Landing = () => {
@@ -9,7 +9,7 @@ const Landing = () => {
     <Wrapper className="third">
       <Section>
         <h1 className="name">Betsy Groton</h1>
-        <ContactMe />
+
         <Typical
           steps={[
             "Hi, I'm Betsy",
@@ -18,10 +18,13 @@ const Landing = () => {
             1000,
             "Nobody calls me 'Elizabeth'",
             1000,
+            'Rock climber, runner, dog mom, TSwift enthusiast',
+            1000,
           ]}
           loop={Infinity}
           wrapper="h2"
         />
+        <ContactMe />
       </Section>
     </Wrapper>
   )
