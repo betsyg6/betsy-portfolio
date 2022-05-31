@@ -22,7 +22,7 @@ export const WrapperStyled = styled.div`
     margin-left: 10px;
     width: 100%;
     font-family: 'Bungee Shade', cursive;
-    color: ${COLORS.DARK2};
+    color: ${COLORS.DARK1};
   }
 
   .name {

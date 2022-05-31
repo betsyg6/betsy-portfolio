@@ -12,10 +12,3 @@ export const List = styled.div`
     color: black;
   }
 `
-
-export const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin-bottom: 1em;
-`

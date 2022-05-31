@@ -5,6 +5,10 @@ import mapIt from '../../../images/mapit.png'
 import shareMyNumbers from '../../../images/sharemynumbers.png'
 import weatherWatcher from '../../../images/weatherwatcher.png'
 
+export const TECH = 'Tech'
+export const LINKS = 'Take a look!'
+export const PROJECTS = 'Projects'
+
 export const projects = [
   {
     title: 'Share My Numbers',

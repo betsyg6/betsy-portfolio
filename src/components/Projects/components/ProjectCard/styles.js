@@ -114,28 +114,6 @@ export const Project = styled.div`
             a:hover {
               color: ${COLORS.MEDIUM2};
             }
-
-            .tags {
-              ul {
-                display: flex;
-                li {
-                  font-size: 12px;
-                  letter-spacing: 2px;
-                  list-style: none;
-                  margin-left: 8px;
-                  text-transform: uppercase;
-                  position: relative;
-                  z-index: 1;
-                  display: flex;
-                  justify-content: center;
-                  cursor: pointer;
-
-                  &:first-child {
-                    margin-left: 0px;
-                  }
-                }
-              }
-            }
           }
         }
       }

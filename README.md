@@ -6,3 +6,9 @@ In case you've gotten to this point and you don't know, I'm Betsy and I'm a soft
 
 Check it out!
 http://www.betsygroton.com/
+
+## To run it locally...
+
+- Clone the repo
+- `npm install`
+- `npm start`

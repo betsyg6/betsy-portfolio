@@ -26,14 +26,12 @@ const Articles = () => {
     <div id="articles">
       <Wrapper className="full">
         <h1>Articles</h1>
-        {/* <Row> */}
         <List>
           {articles &&
             articles.map((article) => {
               return <ArticleCard key={article.link} article={article} />
             })}
         </List>
-        {/* </Row> */}
       </Wrapper>
     </div>
   )

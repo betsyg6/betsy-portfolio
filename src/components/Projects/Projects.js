@@ -1,14 +1,14 @@
 import React from 'react'
-import { Section, Contents } from './styles'
-import { projects } from './copy'
+import { Contents } from './styles'
+import { projects, PROJECTS } from './copy'
 import Wrapper from '../../ui-components/Wrapper'
 import ProjectCard from './components/ProjectCard'
 
 const Projects = () => {
   return (
-    <Section id="projects">
+    <div id="projects">
       <Wrapper className="full">
-        <h1>Projects</h1>
+        <h1>{PROJECTS}</h1>
         <Contents>
           {projects.map((project) => {
             return (
@@ -17,7 +17,7 @@ const Projects = () => {
           })}
         </Contents>
       </Wrapper>
-    </Section>
+    </div>
   )
 }
 

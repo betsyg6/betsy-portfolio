@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { NavBar } from './styles'
+import { ABOUT_ME, PROJECTS, ARTICLES } from './copy'
 
 const Navigation = () => {
   return (
@@ -13,7 +14,7 @@ const Navigation = () => {
           smooth={true}
           duration={1000}
         >
-          About Me
+          {ABOUT_ME}
         </Link>
         <Link
           activeClass="active"
@@ -22,7 +23,7 @@ const Navigation = () => {
           smooth={true}
           duration={1000}
         >
-          Projects
+          {PROJECTS}
         </Link>
         <Link
           activeClass="active"
@@ -31,7 +32,7 @@ const Navigation = () => {
           smooth={true}
           duration={1000}
         >
-          Articles
+          {ARTICLES}
         </Link>
       </div>
     </NavBar>
