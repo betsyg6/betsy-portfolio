@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { NavBar } from './styles'
+import { ABOUT_ME, PROJECTS, ARTICLES } from './copy'
 
 const Navigation = () => {
   return (
@@ -8,14 +9,22 @@ const Navigation = () => {
       <div className="header">
         <Link
           activeClass="active"
+          to="about-me"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          {ABOUT_ME}
+        </Link>
+        <Link
+          activeClass="active"
           to="projects"
           spy={true}
           smooth={true}
           duration={1000}
         >
-          Projects
+          {PROJECTS}
         </Link>
-
         <Link
           activeClass="active"
           to="articles"
@@ -23,16 +32,7 @@ const Navigation = () => {
           smooth={true}
           duration={1000}
         >
-          Articles
-        </Link>
-        <Link
-          activeClass="active"
-          to="about-me"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          About Me
+          {ARTICLES}
         </Link>
       </div>
     </NavBar>

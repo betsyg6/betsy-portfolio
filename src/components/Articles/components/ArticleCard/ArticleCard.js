@@ -1,17 +1,19 @@
-import React from 'react';
-import { Article } from './styles';
-import { parseDate } from '../../copy';
+import React from 'react'
+import { Article } from './styles'
+import { parseDate } from '../../copy'
 
 const ArticleCard = ({ article }) => {
+  const { link, title, categories, pubDate } = article
+  const category = categories[4]
   return (
-    <a href={article.link} key={article.link} title={article.title}>
+    <a href={link} key={link} title={title}>
       <Article>
-        <span>{article.categories[4]}</span>
-        <h4>{article.title}</h4>
-        <span>{parseDate(article.pubDate)}</span>
+        <span>{category}</span>
+        <h4>{title}</h4>
+        <span>{parseDate(pubDate)}</span>
       </Article>
     </a>
-  );
-};
+  )
+}
 
-export default ArticleCard;
+export default ArticleCard

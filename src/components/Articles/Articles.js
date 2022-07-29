@@ -25,15 +25,13 @@ const Articles = () => {
   return (
     <div id="articles">
       <Wrapper className="full">
-        <h1 className="light-header">Articles</h1>
-        <Row>
-          <List>
-            {articles &&
-              articles.map((article) => {
-                return <ArticleCard key={article.link} article={article} />
-              })}
-          </List>
-        </Row>
+        <h1>Articles</h1>
+        <List>
+          {articles &&
+            articles.map((article) => {
+              return <ArticleCard key={article.link} article={article} />
+            })}
+        </List>
       </Wrapper>
     </div>
   )
